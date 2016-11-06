@@ -18,3 +18,4 @@
 После настройки файла надо установить эти пакеты: `lftp`, `ssmtp` and `uuenview`.
 ## ssmtp
 Подключите `ssmtp` к любому SMTP серверу типа `gmail` или `yandex`, чтобы отправлять письма было просто.
+Вот тут можно найти как его настроить: http://serveradministrator.ru/mail/ssmtp/
