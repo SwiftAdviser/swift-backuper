@@ -1,28 +1,14 @@
-# Swift backup EN 
-Auto-backuper for linux. Have been tested on Debian 8 Jessie. Russian setup below
-### What
-Allows to backup files and MySQL databases.
-### Where
-All data will be on local storage and in remote FTP server.
-### When
-The best time - at night :)
-
-## Setup
-
-All settings you can find in `backup.sh`. This file should be executed in cron.
-
-After that you should install `lftp`, `ssmtp` and `uuenview`.
-### ssmtp
-Connect `ssmtp` to any smtp server like `gmail` or `yandex`.
-
 # Swift backup RU
-Авто-бекапер для линукса. Тестировался на Debian 8 Jessie.
-### Что
-Позволяет бэкапить файлы и БД MySQL
-### Где
+Авто-бекапер для линукса с отчетностью по почте. Тестировался на Debian 8 Jessie.
+
+### Что бекапит?
+Позволяет бэкапить файлы и БД MySQL.
+### Где хранит?
 Все данные будут хранится на локальном хранилище, и на удаленном FTP сервере.
-### Когда
-Лучше - в ночное время :)
+### Когда узнаю об этом?
+На почту будет приходить 2 письма:
+ * Первое письмо - короткий отчет. Просто показывает размеры итоговых файлов
+ * Второе письмо - полный отчет. Содержит всю процедуру бекапа.
 
 # Настройка
 
