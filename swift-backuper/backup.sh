@@ -18,6 +18,8 @@ FTPPASS=""                            # пароль
 FTPLOCALPATH="/var/mybackups"         # путь, ИЗ которого будем качать файлы на удаленный фтп. Все папки и файлы
 FTPPATH="/backups"                    # путь, В который будем качать файлы на уд. фтп. Старые файлы будут удаляться, новые - закачиваться.
 
+# добавляем переход в папку с бекапом, чтобы работало откуда угодно
+cd `dirname "$0"`
 
 # бекап бд
 sh ./util/backup-mysql.sh $LIMIT $DB_BACKUP $DB_USER $DB_PASSWD > /tmp/backup_result.log
